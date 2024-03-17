@@ -1,11 +1,11 @@
-# js-lab-153
-### Lab 153 ES6: ฟังก์ชัน cloneArray
-จงเขียนฟังก์ชัน cloneArray โดยรับพารามิเตอร์มาเป็น Array และ return ค่าเป็น Array ที่มี element เหมือนกับพารามิเตอร์ที่รับเข้ามาทุกตัว
+# js-lab-154
+### Lab 154 ES6: ฟังก์ชัน cloneObject
+จงเขียนฟังก์ชัน cloneObject โดยรับพารามิเตอร์มาเป็น Object และ return ค่าเป็น Object ที่มี key-value เหมือนกับพารามิเตอร์ที่รับเข้ามาทุกตัว
 
 ```JavaScript
-const originalArray = [1, 2, 3, 4, 5];
-const clonedArray = cloneArray(originalArray);
+const originalObject = { a: 1, b: 2, c: 3 };
+const clonedObject = cloneObject(originalObject);
 
-console.log(originalArray); // [1, 2, 3, 4, 5]
-console.log(clonedArray); // [1, 2, 3, 4, 5]
+console.log(originalObject); // { a: 1, b: 2, c: 3 }
+console.log(clonedObject); // { a: 1, b: 2, c: 3 }
 ```
